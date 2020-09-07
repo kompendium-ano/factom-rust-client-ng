@@ -1,14 +1,14 @@
 extern crate serde_derive;
 
 #[derive(Serialize, Deserialize)]
-pub struct Result {
+pub struct CurrentMinuteResponse {
     pub(crate) jsonrpc: String,
     pub(crate) id: i64,
-    pub(crate) result: CurrentiMinuteResponse,
+    pub(crate) result: CurrentiMinute,
 }
 
 #[derive(Serialize, Deserialize)]
-pub struct CurrentMinuteResponse {
+pub struct CurrentMinute {
     pub(crate) leaderheight: i64,
     pub(crate) directoryblockheight: i64,
     pub(crate) minute: i64,
