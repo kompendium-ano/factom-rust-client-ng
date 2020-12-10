@@ -1,5 +1,6 @@
 # Better Rust Json RPC client for Factom
 
+![Rust](https://github.com/kompendium-ano/factom-rust-client-ng/workflows/Rust/badge.svg)
 ![Crates.io](https://img.shields.io/crates/v/factom-api)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kompendium-llc/api-rpc-factom/blob/master/LICENSE)
 
