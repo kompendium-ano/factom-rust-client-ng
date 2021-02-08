@@ -1,6 +1,6 @@
 [package]
 name = "factom-api"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Sergey Bushnyak <sergey.bushnyak@sigrlami.eu>"]
 edition = "2018"
 repository = "https://github.com/kompendium-ano/factom-rust-client-ng"
