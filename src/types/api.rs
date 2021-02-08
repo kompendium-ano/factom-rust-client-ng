@@ -1,9 +1,12 @@
-use super::*;
-use constants::*;
+use crate::constants::*;
 use url::Url;
 
 use http::Uri;
 use std::num::Wrapping;
+use std::rc::Rc;
+use hyper::Client;
+use hyper_tls::HttpsConnector;
+use crate::HttpsClient;
 
 pub struct Factom {
     pub client: HttpsClient,
